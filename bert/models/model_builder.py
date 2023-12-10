@@ -261,4 +261,5 @@ class Z_AbsSummarizer(nn.Module):
         z_top_vec = self.f2(1, z_top_vec, z_top_vec, 1-mask_z)
         dec_state = self.decoder.init_decoder_state(src, top_vec, z, z_top_vec)
         decoder_outputs, state, copy_prob= self.decoder(tgt[:, :-1], top_vec, z_top_vec, dec_state)
+        print("Forward happened")
         return decoder_outputs, None, [copy_prob[0], copy_prob[1], copy_prob[2], z_top_vec[:, 0, :]]

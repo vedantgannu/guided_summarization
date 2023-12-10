@@ -168,6 +168,7 @@ class Trainer(object):
                         accum = 0
                         normalization = 0
                         if (step % self.save_checkpoint_steps == 0 and self.gpu_rank == 0):
+                            logger.info("###Save being called")
                             self._save(step)
 
                         step += 1

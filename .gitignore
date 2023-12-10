@@ -1,0 +1,9 @@
+bert/bert_data_cnndm_final
+bert/highlighted_sentence_data_dir
+bert/__pycache__
+bert/models/__pycache__
+bert/others/__pycache__
+bert/translate/__pycache__
+bert/model_dir
+bert/temp
+temp

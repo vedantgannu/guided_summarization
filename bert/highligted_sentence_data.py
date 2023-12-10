@@ -1,9 +1,11 @@
+# python ../highligted_sentence_data.py ../highlighted_sentence_data_dir train
+
 
 import torch
 import sys
 
 OUTPUT_DIR=sys.argv[1]
-mode=sys.artv[2]
+mode=sys.argv[2]
 
 
 if mode == 'train':
