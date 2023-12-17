@@ -7,3 +7,8 @@ bert/translate/__pycache__
 bert/model_dir
 bert/temp
 temp
+# bart/cnn_dm
+# bart/cnn_dm.tar.gz
+# bart/fairseq
+# bart/dict.txt
+bart/

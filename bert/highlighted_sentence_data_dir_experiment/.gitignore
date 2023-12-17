@@ -1,0 +1,6 @@
+model_dir
+model_dir2
+model_dir3
+oracle_test
+results.*
+!.gitignore
