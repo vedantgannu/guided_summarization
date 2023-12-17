@@ -1,5 +1,6 @@
-#!/bin/sh     
-# bash test.sh ./bert_data_cnndm_final/cnndm ./model_dir/model_step_11.pt ./result
+#!/bin/sh  
+# Example command   
+# bash test.sh ./highlighted_sentence_data_dir_experiment/oracle_test/cnndm ./highlighted_sentence_data_dir_experiment/model_dir/model_step_2000.pt ./highlighted_sentence_data_dir_experiment/results
 BERT_DATA_PATH=$1
 MODEL_PATH=$2
 RESULT_PATH=$3
